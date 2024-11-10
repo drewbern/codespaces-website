@@ -1,6 +1,6 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526682619)
 
-# Software Engineering Portfolio Site
+# A Portfolio Site
 
 A professional portfolio website showcasing my experience in medical device development, software engineering, and research work at Texas Heart Institute.
 
