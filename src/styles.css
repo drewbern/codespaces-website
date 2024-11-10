@@ -17,6 +17,17 @@ body {
 /* add a smooth scroll effect */
 html {
   scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth; /* Safari support */
+  -moz-scroll-behavior: smooth; /* Firefox support */
+  -ms-overflow-style: none; /* IE support */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Ensure smooth scrolling works on Safari/iOS */
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 div#main {
@@ -127,4 +138,37 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* animate the scroll down arrow in the Home component to bounce up and down on the page */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* slide in animation for portfolio image */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in {
+  animation: slideInLeft 1s ease-out forwards;
 }
