@@ -28662,9 +28662,9 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _healthcareProblemsJpg = require("../images/Healthcare-Problems.jpg");
-var _healthcareProblemsJpgDefault = parcelHelpers.interopDefault(_healthcareProblemsJpg);
-const imageAltText = "Binary heart image";
+ */ var _healthcareProblemsFlippedJpg = require("../images/Healthcare-Problems_flipped.jpg");
+var _healthcareProblemsFlippedJpgDefault = parcelHelpers.interopDefault(_healthcareProblemsFlippedJpg);
+const imageAltText = "A digital human figure made of interconnected glowing lines and dots stands beside hexagonal icons representing various healthcare symbols, illustrating the integration of technology and medicine on a futuristic blue background.";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28672,11 +28672,11 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _healthcareProblemsJpgDefault.default),
+                src: (0, _healthcareProblemsFlippedJpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 30,
+                lineNumber: 31,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28692,20 +28692,20 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 31,
+                lineNumber: 32,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28724,18 +28724,18 @@ const Home = ({ name , title  })=>{
                     alt: imageAltText
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 38,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 37,
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 29,
+        lineNumber: 30,
         columnNumber: 5
     }, undefined);
 };
@@ -28757,11 +28757,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/Healthcare-Problems.jpg":"1Cfqb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/Healthcare-Problems_flipped.jpg":"7bJh2"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"1Cfqb":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Healthcare-Problems.f368b55c.jpg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"7bJh2":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Healthcare-Problems_flipped.1587162c.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28991,19 +28991,70 @@ const Education = ()=>{
                             lineNumber: 17,
                             columnNumber: 11
                         }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                             children: [
-                                "Bachelor of Science in Biomedial Engineering",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "ECE 382V - Systems Programming: Advanced POSIX API implementation, concurrency patterns, operating system design, x86 architecture, shell programming"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 23,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "ECE 382N - Distributed Systems: Implementation of distributed algorithms, fault tolerance mechanisms, synchronization protocols, consensus algorithms, map-reduce frameworks"
+                                }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
                                     lineNumber: 24,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: [
+                                "Bachelor of Science in Biomedical Engineering",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, undefined),
                                 "Graduated: May 2021"
                             ]
                         }, void 0, true, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 22,
+                            lineNumber: 26,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "ECE 461L - Software Engineering and Design Lab: Database design, agile methodologies, requirements engineering, microservices architecture, API development"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "ECE 445M - Embedded and Real-Time Systems: Real-Time operating systems, ARM Cortex-M programming, digital/analog signal processing, SPI protocols, PCB design"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "ECE 445L - Embedded System Design Lab: Hardware/software integration, IoT development, interface programming"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Education.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 31,
                             columnNumber: 11
                         }, undefined)
                     ]
