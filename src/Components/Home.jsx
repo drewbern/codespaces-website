@@ -20,9 +20,10 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/Healthcare-Problems.jpg";
+import image from "../images/Healthcare-Problems_flipped.jpg";
 
-const imageAltText = "Binary heart image";
+const imageAltText =
+  "A digital human figure made of interconnected glowing lines and dots stands beside hexagonal icons representing various healthcare symbols, illustrating the integration of technology and medicine on a futuristic blue background.";
 
 const Home = ({ name, title }) => {
   return (
