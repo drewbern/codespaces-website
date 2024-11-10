@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Electrogram Annotation Web App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Built a web application for efficient physician annotation of electrogram data, reducing annotation time by 90%. Implemented using React.js and modern web technologies.",
+    url: "LINK_TO_PROJECT", // Replace with actual link
   },
   {
-    title: "Web Development for Beginners",
+    title: "Constant Current Pacemaker",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed embedded system using Zephyr RTOS and ARM Cortex-M4 for a medical pacemaker with BLE connectivity, voltage/current sensing, and configurable pacing output.",
+    url: "https://github.com/drewbern", // Optional: link to related repo if public
   },
   {
-    title: "My Resume Site",
+    title: "TACC Health Informatics App",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created an Android application for scanning grocery items and providing allergen/diet information. Built with Docker, Flask, and MariaDB backend infrastructure.",
+    url: "https://github.com/drewbern", // Optional: link to related repo if public
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Google Hardware Product Sprint Clock",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Led development of a microcontroller-based clock from prototype to PCB design. Selected for EVT Week at Google HQ for final product optimization.",
+    url: "https://github.com/drewbern", // Optional: link to related repo if public
   },
 ];
 

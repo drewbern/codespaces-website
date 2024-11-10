@@ -18,25 +18,27 @@ import React from "react";
  */
 import image from "../images/motion-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Abstract technology background with purple and blue waves";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Research Engineer at Texas Heart Institute and MS Software Engineering student at UT Austin, specializing in embedded systems and medical device development.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Embedded Systems",
+  "Software Development",
+  "Medical Device Prototyping",
+  "PCB Design",
+  "Research & Development",
+  "Technical Writing",
+  "Full Stack Development",
+  "Real-Time Systems",
 ];
 
 /**
@@ -45,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "As a research engineer with experience in medical device development, I'm passionate about transforming high-level concepts into tangible software solutions. I combine my background in biomedical engineering with software development expertise to create innovative solutions in healthcare technology. I thrive on mastering both the intricate technical details and broader system architecture to build impactful applications.";
 
 const About = () => {
   return (
